@@ -1,0 +1,17 @@
+
+
+# 编写相关基本信息
+db_1:
+  db_host: "123.207.107.xxx"
+  db_user: "root"
+  db_password: "root"
+  db_name: "apitest"
+  db_charset: "utf8"
+  db_port: "3306"
+db_2:
+  db_host: "222123.207.107.xxx"
+  db_user: "root"
+  db_password: "root"
+  db_name: "apitest"
+  db_charset: "utf8"
+  db_port: "3306"

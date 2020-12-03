@@ -1,0 +1,51 @@
+
+
+BASE:
+  #log等级
+  log_level: "debug"
+  #log文件拓展名
+  log_extension: ".log"
+  test:
+    case_file: "testdata.xls"
+    case_sheet:
+      业务1:
+#        - "all"
+#        - "模块名1"
+#        - "模块名2"
+#        - "模块名3"
+#        - "用例ID1(单用例一般用来调试)"
+#        - "用例ID2"
+      业务2:
+        - "all"
+        - "模块名1"
+        - "模块名2"
+        - "模块名3"
+      业务3:
+        - "all"
+        - "模块名1"
+        - "模块名2"
+        - "模块名3"
+      业务4:
+        - "all"
+        - "模块名1"
+        - "模块名2"
+        - "模块名3"
+
+email:
+  smtpserver: "smtp.163.com"
+  username: "xxx1@163.com"
+  password: "xxx"
+  receiver: "xxx2@163.com"
+
+GLOBAL:
+  xxx_HOST: "xxx.com"  # 根据自己的需求加自己需要的host地址，也可以直接写在excel里
+  yyy_HOST: "yyy.com"
+  zzz_HOST: "zzz.com"
+
+  HEADER1:
+    Content-Type: "application/json"  # 根据自己的需求加自己需要的header属性，不使用常用header也可以直接写在excel里
+  HEADER2:
+    Content-Type: "application/json"
+  BACKEN_HEADER:
+    Content-Type": "application/json"
+    token: "xxx"
